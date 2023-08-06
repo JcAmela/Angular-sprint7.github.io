@@ -1,16 +1,29 @@
-<div class="container">
-    <form [formGroup]="webForm">
-        <div class="input row d-flex">
-            <p>Número de paginas:  
-                <input type="number" formControlName="pages" min="0">
-        </div>
-        <div class="input  row d-flex">
-            <p>Número de idiomas: 
-                <input type="number" formControlName="languages" min="0"> 
-            </p>
-        </div>
-        <p class="text-center">Total Cost: <strong>{{ totalCost }}€</strong></p>
-    </form>
+<div class="container my-5">
+    <div class="card p-4 shadow">
+        <form [formGroup]="webForm">
+            <div class="form-group">
+                <label for="pages" class="font-weight-bold">Número de páginas</label>
+                <div class="d-flex align-items-center">
+                    <button (click)="decremento('pages')" class="btn btn-outline-danger mr-2">-</button>
+                    <input type="number" id="pages" formControlName="pages" min="0" class="form-control text-center flex-grow-1" aria-label="Número de paginas">
+                    <button (click)="incremento('pages')" class="btn btn-outline-danger ml-2">+</button>
+                </div>
+            </div>
 
-  </div>
-  
+            <div class="form-group">
+                <label for="languages" class="font-weight-bold">Número de idiomas</label>
+                <div class="d-flex align-items-center">
+                    <button (click)="decremento('languages')" class="btn btn-outline-danger mr-2">-</button>
+                    <input type="number" id="languages" formControlName="languages" min="0" class="form-control text-center flex-grow-1" aria-label="Número de idiomas">
+                    <button (click)="incremento('languages')" class="btn btn-outline-danger ml-2">+</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="text-center mt-3">
+                <p class="h4">Coste total: <span class="font-weight-bold text-success">{{ totalCost }}€</span></p>
+            </div>
+        </form>
+    </div>
+</div>

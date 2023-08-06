@@ -2,3 +2,118 @@
     width: 30%;
     margin: 50px;
 }
+.text-center {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #5f2c82, #49a09d);
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.back-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.back-button:active {
+    transform: scale(0.95);
+}
+/* __________________________________________________ */
+
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif; /* Cambiando a una tipografía más moderna */
+    background-color: #f5f6fa;
+    color: #4b4b4b;
+    line-height: 1.5;
+}
+
+/* Estilo para el form-check */
+.form-check {
+    margin: 40px 0;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.4s ease-in-out;
+}
+
+.form-check-input {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+    transition: transform 0.3s;
+}
+
+.form-check-input:checked {
+    transform: scale(1.2);
+}
+
+.form-check-label {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.form-check-label:hover {
+    color: #777;
+}
+
+/* Estilo para el texto del precio total */
+.text-center {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #3498db; /* Un azul brillante para resaltar el precio */
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.text-center:hover {
+    background-color: #2980b9; /* Oscureciendo el color al pasar el cursor */
+}
+
+.text-center p {
+    font-size: 22px;
+    margin-bottom: 0; /* Eliminando margen inferior para un mejor espaciado */
+}
+
+.text-center strong {
+    font-size: 26px;
+    letter-spacing: 1.5px;
+}
+
+/* Transiciones suaves y hover effects */
+*, *::before, *::after {
+    transition: all 0.3s ease-in-out;
+}
+

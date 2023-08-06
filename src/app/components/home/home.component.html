@@ -1,28 +1,39 @@
 <div class="container">
-    <h1 class="text-center">{{title}}</h1>
+
+    <header>
+        <h1 class="text-center">{{title}}</h1>
+        <button class="back-button" (click)="goBack()">Volver atrás</button>
+    </header>
+
+
     <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-            [(ngModel)]="listProduct.firstProduct" (change)="Web()">
-        <label class="form-check-label" for="flexCheckDefault">
+        <input class="form-check-input" type="checkbox" value="" id="webCheck" [(ngModel)]="listProduct.firstProduct"
+            (change)="Web()">
+        <label class="form-check-label" for="webCheck">
             Una página web (500€)
         </label>
         <app-panel *ngIf="listProduct.firstProduct" (costUpdated)="updateTotalPrice($event)"></app-panel>
     </div>
+
     <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-            [(ngModel)]="listProduct.secondProduct" (change)="seo()">
-        <label class="form-check-label" for="flexCheckChecked">
+        <input class="form-check-input" type="checkbox" value="" id="seoCheck" [(ngModel)]="listProduct.secondProduct"
+            (change)="seo()">
+        <label class="form-check-label" for="seoCheck">
             Hacer una campaña SEO (300 €)
         </label>
     </div>
+
     <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-            [(ngModel)]="listProduct.thirdProduct" (change)="publi()">
-        <label class="form-check-label" for="flexCheckChecked">
+        <input class="form-check-input" type="checkbox" value="" id="adCheck" [(ngModel)]="listProduct.thirdProduct"
+            (change)="publi()">
+        <label class="form-check-label" for="adCheck">
             Hacer una campaña de publicidad (200 €)
         </label>
     </div>
-    <div class=" text-center">
+
+    <div class="text-center">
         <p>El precio total del servicio web: <strong>{{listProduct.totalPrice}}€</strong></p>
     </div>
+
+
 </div>
