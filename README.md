@@ -1,6 +1,6 @@
 # Web Service Cost Calculator - Angular Project 💻
 
-## 🌟 [¡Haz clic aquí para ver el proyecto en acción!](https://jcamela.github.io/Sprint7-ItAcademy/)
+## 🌟 [¡Haz clic aquí para ver el proyecto en acción!](https://jcamela.github.io/Sprint7-ItAcademy/home)
 
 ## 🌟 Introducción
 
