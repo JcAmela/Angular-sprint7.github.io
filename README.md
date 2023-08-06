@@ -1,27 +1,46 @@
-# AngularSprint7GithubIo
+# Web Service Cost Calculator - Angular Project 💻
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## 🌟 [¡Haz clic aquí para ver el proyecto en acción!](https://jcamela.github.io/Sprint7-ItAcademy/)
 
-## Development server
+## 🌟 Introducción
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+¡Hola! Soy **Juan Carlos Amela**, un desarrollador web apasionado especializado en Angular. Esta aplicación demuestra mis habilidades y mi compromiso con la calidad y la atención al detalle. Si buscas un desarrollador con una mentalidad de crecimiento y habilidades técnicas robustas, ¡has llegado al lugar correcto!
 
-## Code scaffolding
+## 🚀 Características del Proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Interactivo**: Calcula el costo de diversos servicios web de forma intuitiva y eficaz.
+- **Responsive**: Diseño adaptable a dispositivos de todos los tamaños.
+- **Reutilizable**: Componentes modulares listos para ser adaptados y extendidos según las necesidades.
+- **Accesible**: Enfocado en proporcionar una excelente experiencia a todos los usuarios.
 
-## Build
+## 💡 Tecnologías Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [**Angular**](https://angular.io/): El framework principal detrás de este proyecto, proporcionando estructura y lógica.
+- [**Angular Material**](https://material.angular.io/): Componentes de UI de alta calidad para una experiencia de usuario moderna y fluida.
+- [**Bootstrap**](https://getbootstrap.com/): Framework de diseño para garantizar un diseño responsivo y atractivo.
+- **Reactive Forms**: Para un manejo reactivo y dinámico de los formularios.
+- **CSS**: Estilos personalizados para garantizar una estética única y funcionalidad óptima.
 
-## Running unit tests
+## 🖥️ Cómo Instalar y Ejecutar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona este repositorio:
+git clone https://github.com/jcamela/Sprint7-ItAcademy.git
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Instala las dependencias:
+npm install
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Ejecuta el servidor local:
+ng serve
+
+
+Luego, visita `http://localhost:4200/` en tu navegador para experimentar el proyecto en acción.
+
+## 📞 Contacto
+
+Me encantaría conectarme contigo para hablar sobre oportunidades, colaboraciones o simplemente sobre desarrollo web:
+
+- **Email**: [juancarlosamela@gmail.com](mailto:juancarlosamela@gmail.com)
+- **LinkedIn**: [Juan Carlos Amela](https://www.linkedin.com/in/juancarlosamela/)
+- **GitHub**: [jcamela](https://github.com/jcamela/Sprint7-ItAcademy)
