@@ -1,0 +1,16 @@
+<div class="container">
+    <form [formGroup]="webForm">
+        <div class="input row d-flex">
+            <p>Número de paginas:  
+                <input type="number" formControlName="pages" min="0">
+        </div>
+        <div class="input  row d-flex">
+            <p>Número de idiomas: 
+                <input type="number" formControlName="languages" min="0"> 
+            </p>
+        </div>
+        <p class="text-center">Total Cost: <strong>{{ totalCost }}€</strong></p>
+    </form>
+
+  </div>
+  
