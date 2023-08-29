@@ -18,8 +18,7 @@
 - [**Angular**](https://angular.io/): El framework principal detrás de este proyecto, proporcionando estructura y lógica.
 - [**Angular Material**](https://material.angular.io/): Componentes de UI de alta calidad para una experiencia de usuario moderna y fluida.
 - [**Bootstrap**](https://getbootstrap.com/): Framework de diseño para garantizar un diseño responsivo y atractivo.
-- **Reactive Forms**: Para un manejo reactivo y dinámico de los formularios.
-- **CSS**: Estilos personalizados para garantizar una estética única y funcionalidad óptima.
+- [**Reactive Forms**](https://angular.io/guide/reactive-forms) Para un manejo reactivo y dinámico de los formularios.
 
 ## 🖥️ Cómo Instalar y Ejecutar
 
