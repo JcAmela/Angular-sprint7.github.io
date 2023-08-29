@@ -4,4 +4,5 @@ export interface ListProduct{
   secondProduct:boolean,
   thirdProduct:boolean,
   totalPrice:number,
+  pages?:number
 }

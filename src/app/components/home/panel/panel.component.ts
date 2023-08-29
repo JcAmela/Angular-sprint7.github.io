@@ -1,7 +1,7 @@
 
 import { Component, EventEmitter, Output } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
-import { WebService } from '../../services/web.service';
+import { WebService } from '../../../services/web.service';
 
 
 @Component({
